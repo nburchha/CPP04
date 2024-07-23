@@ -49,6 +49,5 @@ int main() {
 	std::cout << meta3.getType() << std::endl;
 	meta3.makeSound();
 	std::cout << std::endl;
-	// system("leaks pets");
   return 0;
 }
