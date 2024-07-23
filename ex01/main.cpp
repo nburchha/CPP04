@@ -12,7 +12,6 @@ int main()
 		else
 			pets[i] = new Dog;
 	}
-
 	for (int i = 0; i < 6; i++)
 		pets[i]->makeSound();
 
