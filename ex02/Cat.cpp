@@ -1,6 +1,6 @@
 #include "Cat.hpp"
 
-Cat::Cat() : Animal()
+Cat::Cat() : AAnimal()
 {
 	std::cout << "Cat constructor called" << std::endl;
 	_type = "Cat";
@@ -22,7 +22,7 @@ Cat& Cat::operator=(const Cat &copy)
 	return *this;
 }
 
-Cat::Cat(const Cat &copy) : Animal(copy)
+Cat::Cat(const Cat &copy) : AAnimal(copy)
 {
 	*this = copy;
 }
